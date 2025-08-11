@@ -1,0 +1,30 @@
+header {
+    color: brown;
+    text-align: center;
+}
+
+h2 {
+    color: chocolate;
+}
+
+h3 {
+    color: coral
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.rust>p {
+    color: crimson;
+}
+
+.artificialIntelligence>p {
+    color: forestgreen;
+}
+
+footer {
+    color: darkred;
+    text-align: center;
+}
