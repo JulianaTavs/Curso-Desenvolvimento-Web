@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    background-image: linear-gradient(to bottom, #1e3c72, #2a5298, #6db3f2);
+}
+
+.destaque {
+    background-color: #e6f0fa;
+}
+
+.OnlyAParagraph {
+    background-color: #d0e4f7;
+}
+
+.lançamento {
+    background-image: url(nevoeiro-no-lago.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.mercado {
+    background-image: url(tall-grass.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    height: 500px;
+    text-align: center;
+    padding: 200px 60px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.center-section {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #1a5798;
+}
