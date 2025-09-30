@@ -43,6 +43,11 @@ nav li:hover {
 main {
     padding: 10px;
     overflow: auto;
+    
+}
+
+main p {
+    margin-top: 15px;
 }
 
 section {
@@ -68,22 +73,30 @@ footer {
     clear: both;
 }
 
+
 @media (max-width: 767px) {
+    body {
+        font-size: 14px;
+        
+    }
     nav li a {
         display: block;
     }
 
+    main {
+        padding: 15px;
+    }
+
     section {
         background: #f4f4f4;
-        padding: 15px;
         min-height: 400px;
         width: 100%;
         float: none;
+        margin-bottom: 15px;
     }
 
     aside {
         background: #ddd;
-        padding: 15px;
         min-height: 400px;
         width: 100%;
     }

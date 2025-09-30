@@ -1,0 +1,33 @@
+
+table {
+    width: 50%;
+    border: 2px solid #333;
+    border-collapse: collapse;
+    width: 700px;
+    height: 200px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+thead {
+    background-color: rgb(86, 207, 86);
+    color: white;
+}
+
+caption {
+    font-size: 30px;
+    padding-bottom: 15px;
+    font-weight: 800;
+}
+

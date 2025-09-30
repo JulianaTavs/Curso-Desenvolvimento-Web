@@ -1,0 +1,34 @@
+
+table {
+    border: 2px solid #333;
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+
+caption {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+    position: sticky;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f1f6ff; /* Cor clara para as linhas pares */
+}
+
+td, th {
+    border: 1px solid #666;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+td {
+    text-align: center;
+}
